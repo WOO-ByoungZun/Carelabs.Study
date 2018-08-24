@@ -11,7 +11,7 @@ namespace Carelabs.Study.Repository.Dummy
     public class PatientRepository : IPatientRepository
     {
         static PatientRepository()
-        {//
+        {//ㄴㅇㄹㄹㅇㄹ
             _datas.Add(new Patient() { PatientId = 1, Name = "홍길동1" });
             _datas.Add(new Patient() { PatientId = 2, Name = "홍길동2" });
             _datas.Add(new Patient() { PatientId = 3, Name = "홍길동3" });

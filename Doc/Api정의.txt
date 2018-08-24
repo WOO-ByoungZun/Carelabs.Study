@@ -1,0 +1,11 @@
+
+GET Patient/{Id}
+
+--UPSERT (PatientID == 0 : 추가, PatientID > 0 수정)
+PUT Patient
+POST DATA : Patient Model
+
+POST Patient\
+POST DATA : SearchCondition Model
+
+DEL Patient/{Id}
